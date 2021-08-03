@@ -3,9 +3,9 @@
 
 - 🔭 Currently I'm at **Shri Vaishnav Vidyapeeth Vishwavidyalaya**
 
-- 🌱 I’m currently learning **JavaScript**
+- 🌱 I’m currently learning..**JavaScript**
 
-- 💬 Ask me about **Anything**
+- 💬 Ask me about..**Programming**
 
 - 📫 How to reach me **saikhedkarprakhar@gmail.com**
 - 😄 Pronouns: ... He / Him
