@@ -1,4 +1,4 @@
-### Hi there 👋
+### Hi I'm Prakhar Saikhedkar 👋
 
 
 Here are some ideas to get you started:
@@ -8,4 +8,4 @@ Here are some ideas to get you started:
 - 💬 Ask me about ... Anything
 - 📫 How to reach me: ... saikhedkarprakhar@gmail.com
 - 😄 Pronouns: ... He / Him
--->
+-->https://github-readme-stats.vercel.app/api?username=Prakhar123s&&show_icons=true&title_color=ffffff&icon_color=bb2acf&text_color=daf7dc&bg_color=151515
