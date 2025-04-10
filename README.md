@@ -1,9 +1,6 @@
 <h1 align="center">Hi 👋, I'm Prakhar Saikhedkar</h1>
 <h3 align="center">A passionate backend developer from India</h3>
 
-- 🔭 Currently I'm Student at: ..**Shri Vaishnav Vidyapeeth Vishwavidyalaya**
-
-- 🌱 I’m currently learning: ..**JavaScript**
 
 - 💬 Ask me about: ..**Programming**
 
