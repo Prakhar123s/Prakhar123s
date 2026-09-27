@@ -1,499 +1,275 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Prakhar Saikhedkar | Java Backend Developer</title>
-
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-            background: #f4f7fb;
-            color: #1f2937;
-            line-height: 1.6;
-        }
-
-        .container {
-            width: 90%;
-            max-width: 1100px;
-            margin: auto;
-        }
-
-        /* Header */
-        header {
-            background: #111827;
-            color: white;
-            padding: 70px 20px;
-            text-align: center;
-        }
-
-        header h1 {
-            font-size: 42px;
-            margin-bottom: 10px;
-        }
-
-        header h2 {
-            font-size: 22px;
-            color: #60a5fa;
-            font-weight: 500;
-            margin-bottom: 20px;
-        }
-
-        header p {
-            max-width: 750px;
-            margin: auto;
-            color: #d1d5db;
-        }
-
-        .contact {
-            margin-top: 20px;
-        }
-
-        .contact a {
-            color: #93c5fd;
-            text-decoration: none;
-            margin: 0 10px;
-        }
-
-        /* Sections */
-        section {
-            background: white;
-            margin: 30px auto;
-            padding: 35px;
-            border-radius: 12px;
-            box-shadow: 0 5px 20px rgba(0,0,0,0.06);
-        }
-
-        section h2 {
-            color: #111827;
-            margin-bottom: 20px;
-            border-bottom: 2px solid #2563eb;
-            padding-bottom: 8px;
-        }
-
-        /* About */
-        .about p {
-            font-size: 17px;
-        }
-
-        /* Skills */
-        .skills {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-            gap: 20px;
-        }
-
-        .skill-card {
-            background: #f8fafc;
-            padding: 20px;
-            border-radius: 10px;
-            border-left: 4px solid #2563eb;
-        }
-
-        .skill-card h3 {
-            margin-bottom: 10px;
-            color: #2563eb;
-        }
-
-        /* Experience */
-        .experience-item {
-            margin-bottom: 30px;
-        }
-
-        .experience-item h3 {
-            color: #111827;
-        }
-
-        .experience-item .company {
-            color: #2563eb;
-            font-weight: bold;
-        }
-
-        .experience-item .date {
-            color: #6b7280;
-            font-size: 14px;
-            margin-bottom: 10px;
-        }
-
-        ul {
-            padding-left: 20px;
-        }
-
-        li {
-            margin-bottom: 8px;
-        }
-
-        /* Projects */
-        .project {
-            background: #f8fafc;
-            padding: 25px;
-            border-radius: 10px;
-            margin-bottom: 20px;
-        }
-
-        .project h3 {
-            color: #2563eb;
-            margin-bottom: 8px;
-        }
-
-        .tech {
-            font-size: 14px;
-            color: #6b7280;
-            margin-bottom: 12px;
-        }
-
-        /* Achievements */
-        .achievement {
-            background: #eff6ff;
-            border-left: 5px solid #2563eb;
-            padding: 15px;
-            margin-bottom: 12px;
-            border-radius: 5px;
-        }
-
-        /* Footer */
-        footer {
-            background: #111827;
-            color: white;
-            text-align: center;
-            padding: 25px;
-            margin-top: 40px;
-        }
-
-        /* Responsive */
-        @media (max-width: 600px) {
-            header h1 {
-                font-size: 30px;
-            }
-
-            header h2 {
-                font-size: 18px;
-            }
-
-            section {
-                padding: 25px 20px;
-            }
-        }
-    </style>
-</head>
-
-<body>
-
-    <!-- Header -->
-    <header>
-        <div class="container">
-
-            <h1>Prakhar Saikhedkar</h1>
-
-            <h2>Java Backend Developer</h2>
-
-            <p>
-                Java Backend Developer with 4+ years of experience building
-                scalable microservices, REST APIs, high-performance data
-                processing systems, and cloud-based enterprise applications.
-            </p>
-
-            <div class="contact">
-                <a href="tel:+916261348486">📞 +91-6261348486</a>
-                <a href="mailto:saikhedkarprakhar@gmail.com">
-                    ✉ saikhedkarprakhar@gmail.com
-                </a>
-                <span>📍 Hyderabad, India</span>
-            </div>
-
-        </div>
-    </header>
-
-
-    <main class="container">
-
-        <!-- About -->
-        <section class="about">
-
-            <h2>Professional Profile</h2>
-
-            <p>
-                Java Backend Developer with 4+ years of professional experience
-                across leading IT organizations, developing production-grade
-                backend systems for global banking and insurance clients.
-                Strong expertise in Java 8, Spring Boot, Microservices,
-                REST APIs, AWS, JDBC, MySQL and multithreading.
-            </p>
-
-            <br>
-
-            <p>
-                Experienced in designing scalable data processing systems,
-                optimizing application performance, conducting code reviews,
-                managing CI/CD pipelines and collaborating with
-                cross-functional Agile teams.
-            </p>
-
-        </section>
-
-
-        <!-- Skills -->
-        <section>
-
-            <h2>Technical Skills</h2>
-
-            <div class="skills">
-
-                <div class="skill-card">
-                    <h3>Languages & Frameworks</h3>
-                    <p>
-                        Java 8, Spring Boot, Hibernate, Microservices,
-                        REST APIs, Servlets, JSP
-                    </p>
-                </div>
-
-                <div class="skill-card">
-                    <h3>Cloud & DevOps</h3>
-                    <p>
-                        AWS, CI/CD, GitHub, Bitbucket, Redis
-                    </p>
-                </div>
-
-                <div class="skill-card">
-                    <h3>Database</h3>
-                    <p>
-                        MySQL, JDBC
-                    </p>
-                </div>
-
-                <div class="skill-card">
-                    <h3>Testing & Libraries</h3>
-                    <p>
-                        JUnit, Apache PDFBox, Log4j
-                    </p>
-                </div>
-
-                <div class="skill-card">
-                    <h3>Core Concepts</h3>
-                    <p>
-                        Multithreading, OOP, Data Structures & Algorithms,
-                        Agile/Scrum
-                    </p>
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- Experience -->
-        <section>
-
-            <h2>Professional Experience</h2>
-
-            <div class="experience-item">
-
-                <h3>Packaged App Development Senior Analyst</h3>
-
-                <div class="company">Accenture</div>
-
-                <div class="date">
-                    March 2026 – Present | Hyderabad, Telangana
-                </div>
-
-                <ul>
-                    <li>
-                        Building scalable Java/Spring Boot microservices and
-                        RESTful APIs for enterprise clients.
-                    </li>
-
-                    <li>
-                        Conducting code reviews and collaborating with
-                        cross-functional teams to maintain clean architecture
-                        and coding standards.
-                    </li>
+<h1 align="center">Hi 👋, I'm Prakhar Saikhedkar</h1>
 
-                    <li>
-                        Managing deployments through CI/CD pipelines and
-                        cloud platforms for reliable production releases.
-                    </li>
-                </ul>
-
-            </div>
-
-
-            <div class="experience-item">
-
-                <h3>System Engineer</h3>
-
-                <div class="company">Tata Consultancy Services</div>
-
-                <div class="date">
-                    July 2022 – February 2026 | Pune, Maharashtra
-                </div>
-
-                <ul>
-                    <li>
-                        Designed and delivered Java-based data processing and
-                        migration systems for global banking and insurance
-                        clients.
-                    </li>
-
-                    <li>
-                        Used Java 8, Spring Boot, JDBC and REST APIs with
-                        AWS deployments.
-                    </li>
+<h3 align="center">
+☕ Java Backend Developer | Spring Boot | Microservices | AWS
+</h3>
 
-                    <li>
-                        Resolved critical performance bottlenecks using
-                        multithreading and parallel query execution,
-                        reducing processing time by 15%.
-                    </li>
+<p align="center">
+  
 
-                    <li>
-                        Built a high-throughput framework processing
-                        1 million+ records daily across four parallel SQL
-                        threads.
-                    </li>
+  <a href="mailto:saikhedkarprakhar@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
 
-                    <li>
-                        Conducted PR reviews and merge approvals while
-                        enforcing clean architecture and coding standards.
-                    </li>
-                </ul>
+  <img src="https://komarev.com/ghpvc/?username=Prakhar123s&label=Profile%20Views&color=blue&style=for-the-badge" />
+</p>
 
-            </div>
+---
 
-        </section>
+## 👨‍💻 About Me
 
+Java Backend Developer with **4+ years of experience** building production-grade microservices, REST APIs, and high-performance data processing systems for global banking and insurance clients.
 
-        <!-- Projects -->
-        <section>
+I specialize in:
 
-            <h2>Key Projects</h2>
+- ☕ Java 8
+- 🌱 Spring Boot
+- 🔗 Microservices & REST APIs
+- ☁️ AWS
+- 🗄️ MySQL & JDBC
+- ⚡ Multithreading & Performance Optimization
+- 🔄 CI/CD
+- 🧪 Unit Testing
+- 🔍 Code Reviews
+- 🚀 Agile/Scrum Development
 
+📍 **Location:** Hyderabad, India
 
-            <div class="project">
+💼 **Current Role:** Packaged App Development Senior Analyst at Accenture
 
-                <h3>TD Bank – 1-Click Project</h3>
+---
 
-                <div class="tech">
-                    Java 8 | Spring Boot | Apache PDFBox |
-                    Microservices | AWS | Log4j
-                </div>
+## 🛠️ Tech Stack
 
-                <ul>
-                    <li>
-                        Developed a Java utility for parsing and validating
-                        insurance policy data using Apache PDFBox.
-                    </li>
+### ☕ Languages & Frameworks
 
-                    <li>
-                        Designed and deployed Spring Boot microservices on AWS
-                        for secure policy data storage and retrieval.
-                    </li>
+<p>
+  <img src="https://img.shields.io/badge/Java%208-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+  <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" />
+  <img src="https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white" />
+  <img src="https://img.shields.io/badge/Servlets-007396?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/JSP-007396?style=for-the-badge" />
+</p>
 
-                    <li>
-                        Optimized key data handling bottlenecks and improved
-                        system stability during peak business hours.
-                    </li>
+### 🔗 Backend Development
 
-                    <li>
-                        Produced stakeholder validation reports for data
-                        transparency.
-                    </li>
-                </ul>
+<p>
+  <img src="https://img.shields.io/badge/Microservices-2563EB?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/REST%20APIs-009688?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/JDBC-4479A1?style=for-the-badge" />
+</p>
 
-            </div>
+### ☁️ Cloud & DevOps
 
+<p>
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/Bitbucket-0052CC?style=for-the-badge&logo=bitbucket&logoColor=white" />
+  <img src="https://img.shields.io/badge/CI%2FCD-2563EB?style=for-the-badge" />
+</p>
 
-            <div class="project">
+### 🗄️ Database & Caching
 
-                <h3>Deutsche Bank – Data Migration Framework</h3>
+<p>
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" />
+</p>
 
-                <div class="tech">
-                    Java 8 | Spring Boot | JDBC | MySQL |
-                    REST APIs | AWS
-                </div>
+### 🧪 Testing & Libraries
 
-                <ul>
-                    <li>
-                        Engineered a high-performance Spring Boot framework
-                        for database data migration.
-                    </li>
+<p>
+  <img src="https://img.shields.io/badge/JUnit-25A162?style=for-the-badge&logo=junit5&logoColor=white" />
+  <img src="https://img.shields.io/badge/Apache%20PDFBox-D22128?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Log4j-FF6600?style=for-the-badge" />
+</p>
 
-                    <li>
-                        Implemented Java multithreading to execute four SQL
-                        queries in parallel.
-                    </li>
+---
 
-                    <li>
-                        Reduced migration time by 15% while processing
-                        1 million+ records daily.
-                    </li>
+## 💼 Professional Experience
 
-                    <li>
-                        Built RESTful APIs for upstream and downstream
-                        system integration.
-                    </li>
-                </ul>
+### 🏢 Accenture
 
-            </div>
+**Packaged App Development Senior Analyst**
 
-        </section>
+📍 Hyderabad, Telangana  
+📅 March 2026 – Present
 
+- Building scalable **Java/Spring Boot microservices** and RESTful APIs for enterprise clients.
+- Conducting **code reviews** and collaborating with cross-functional teams.
+- Maintaining clean architecture and coding standards.
+- Managing deployments through **CI/CD pipelines** and cloud platforms.
+- Working within Agile delivery cycles.
 
-        <!-- Education -->
-        <section>
+---
 
-            <h2>Education</h2>
+### 🏢 Tata Consultancy Services
 
-            <div class="experience-item">
+**System Engineer**
 
-                <h3>Bachelor of Technology – Computer Science</h3>
+📍 Pune, Maharashtra  
+📅 July 2022 – February 2026
 
-                <div class="company">
-                    Shri Vaishnav Vidyapeeth Vishwavidyalaya
-                </div>
+- Designed and delivered Java-based **data processing and migration systems**.
+- Worked with **Java 8, Spring Boot, JDBC, REST APIs and AWS**.
+- Implemented **multithreading and parallel query execution**.
+- Reduced processing time by **15%**.
+- Developed a high-throughput framework processing **1M+ records daily**.
+- Executed **4 SQL queries in parallel**.
+- Conducted PR reviews and merge approvals.
+- Maintained REST APIs and Spring Boot microservices.
+- Worked within Agile/Scrum sprint cycles.
 
-                <div class="date">
-                    August 2018 – June 2022 | Indore, Madhya Pradesh
-                </div>
+---
 
-            </div>
+## 🚀 Key Projects
 
-        </section>
+### 🏦 TD Bank – 1-Click Project
 
+**Tech Stack:**
 
-        <!-- Achievements -->
-        <section>
+`Java 8` `Spring Boot` `Apache PDFBox` `Microservices` `AWS` `Log4j`
 
-            <h2>Achievements</h2>
+#### What I worked on:
 
-            <div class="achievement">
-                🏆 Client Appreciation Award – TD Bank 1-Click Project
-            </div>
+- Developed a Java utility for parsing and validating insurance policy data.
+- Used **Apache PDFBox** for document processing.
+- Designed and deployed scalable **Spring Boot microservices on AWS**.
+- Implemented secure policy data storage and retrieval.
+- Optimized key data handling bottlenecks.
+- Improved system stability during peak business hours.
+- Created stakeholder validation reports.
+- 🏆 Received **Client Appreciation Award** for contribution to the project.
 
-            <div class="achievement">
-                🏆 TCS On-the-Spot Award – Outstanding contribution
-                and key role in project delivery
-            </div>
+---
 
-        </section>
+### 🏦 Deutsche Bank – Data Migration Framework
 
-    </main>
+**Tech Stack:**
 
+`Java 8` `Spring Boot` `JDBC` `MySQL` `REST APIs` `AWS`
 
-    <!-- Footer -->
-    <footer>
+#### What I worked on:
 
-        <p>
-            © 2026 Prakhar Saikhedkar | Java Backend Developer
-        </p>
+- Engineered a high-performance **Spring Boot data migration framework**.
+- Designed solutions for processing large database records.
+- Implemented Java **multithreading**.
+- Executed **4 SQL queries in parallel**.
+- Reduced migration processing time by **15%**.
+- Enabled processing of **1M+ records daily**.
+- Configured JDBC for reliable database connectivity.
+- Built RESTful APIs for upstream and downstream system integration.
+- Maintained data integrity during migration.
 
-    </footer>
+---
 
-</body>
-</html>
+## 🧠 Core Concepts
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/Object%20Oriented%20Programming-2563EB?style=flat-square" />
+
+<img src="https://img.shields.io/badge/Data%20Structures%20%26%20Algorithms-2563EB?style=flat-square" />
+
+<img src="https://img.shields.io/badge/Multithreading-2563EB?style=flat-square" />
+
+<img src="https://img.shields.io/badge/Microservices-2563EB?style=flat-square" />
+
+<img src="https://img.shields.io/badge/Performance%20Optimization-2563EB?style=flat-square" />
+
+<img src="https://img.shields.io/badge/Clean%20Architecture-2563EB?style=flat-square" />
+
+<img src="https://img.shields.io/badge/REST%20Architecture-2563EB?style=flat-square" />
+
+<img src="https://img.shields.io/badge/Agile%2FScrum-2563EB?style=flat-square" />
+
+<img src="https://img.shields.io/badge/Code%20Review-2563EB?style=flat-square" />
+
+</p>
+
+---
+
+## 🎓 Education
+
+### 🎓 Shri Vaishnav Vidyapeeth Vishwavidyalaya
+
+**Bachelor of Technology – Computer Science**
+
+📍 Indore, Madhya Pradesh  
+📅 August 2018 – June 2022
+
+---
+
+## 🏆 Achievements
+
+### 🥇 Client Appreciation Award
+
+**TD Bank – 1-Click Project**
+
+Recognized for key contribution to successful project delivery.
+
+### 🥇 TCS On-the-Spot Award
+
+Recognized for outstanding contribution and key role in project delivery.
+
+---
+
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img
+    src="https://ghstats.dev/api/card?username=Prakhar123s&theme=tokyonight"
+    alt="GitHub Stats"
+  />
+</p>
+
+## 🔥 GitHub Streak
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=Prakhar123s&theme=tokyonight" />
+</p>
+---
+
+## 👀 Profile Views
+
+<p align="center">
+
+<img
+  src="https://komarev.com/ghpvc/?username=Prakhar123s&label=Profile%20Views&color=blue&style=for-the-badge"
+  alt="Profile Views"
+/>
+
+</p>
+
+---
+
+## 📫 Connect With Me
+
+<p align="center">
+
+<a href="mailto:saikhedkarprakhar@gmail.com">
+  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
+
+<a href="https://github.com/Prakhar123s">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+<!-- Replace YOUR_LINKEDIN_URL with your actual LinkedIn profile -->
+
+<a href="YOUR_LINKEDIN_URL">
+  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+
+</p>
+
+---
+
+<h3 align="center">
+  🚀 Building scalable backend systems, one service at a time.
+</h3>
+
+<p align="center">
+  ⭐ Thanks for visiting my profile!
+</p>
+```
