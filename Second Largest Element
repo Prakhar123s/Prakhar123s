@@ -1,0 +1,24 @@
+class Solution {
+    public int secondLargest(int[] nums) {
+        int max=Integer.MIN_VALUE;
+
+        for(int i: nums){
+
+            if(i>max){
+
+                max=i;
+            }
+        }
+
+        int secondMax=Integer.MIN_VALUE;
+
+        for(int i: nums){
+
+            if(i<max && i>secondMax){
+
+                secondMax=i;
+            }
+        }
+        return secondMax== Integer.MIN_VALUE ? -1 : (int) secondMax;
+    }
+}
