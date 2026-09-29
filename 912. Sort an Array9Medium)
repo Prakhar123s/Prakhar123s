@@ -1,0 +1,61 @@
+class Solution {
+    public int[] sortArray(int[] nums) {
+        
+        return mergeSortAlgo(nums);
+    }
+
+    private int[] mergeSortAlgo(int[] arr) {
+
+
+        int mid= arr.length/2;
+
+        if(arr.length==1){
+            return arr;
+        }
+        int[] left= mergeSortAlgo(Arrays.copyOfRange(arr,0,mid));
+        int[] right=mergeSortAlgo(Arrays.copyOfRange(arr,mid,arr.length));
+
+
+        return merge(left,right);
+    }
+
+    public int[] merge(int[] firstHalf, int[] secondHalf){
+
+        int[] mergedArray= new int[firstHalf.length+secondHalf.length];
+
+        int i=0;
+        int j=0;
+        int k=0;
+
+        while(i<firstHalf.length && j<secondHalf.length){
+
+            if(firstHalf[i]<secondHalf[j]){
+
+                mergedArray[k]=firstHalf[i];
+                i++;
+            }
+            else {
+
+                mergedArray[k]=secondHalf[j];
+                j++;
+            }
+            k++;
+        }
+        while(i<firstHalf.length){
+
+            mergedArray[k]=firstHalf[i];
+            i++;
+            k++;
+        }
+
+        while(j<secondHalf.length){
+
+            mergedArray[k]=secondHalf[j];
+            j++;
+            k++;
+        }
+
+
+        return mergedArray;
+    }
+}
