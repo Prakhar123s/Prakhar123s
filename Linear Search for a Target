@@ -1,0 +1,24 @@
+Example 1:
+Input: nums = [5, 3, 8, 1], target = 8
+
+Output: 2
+
+Example 2:
+Input: nums = [4, 2, 7, 9], target = 6
+
+Output: -1
+
+
+
+class Solution {
+    public int linearSearch(int[] nums, int target) {
+        
+        for(int i=0;i<nums.length;i++){
+
+            if(nums[i]==target){
+                return i;
+            }
+        }
+        return -1;
+    }
+}
