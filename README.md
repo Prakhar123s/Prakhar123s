@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Prakhar Saikhedkar</h1>
 
 <h3 align="center">
-☕ Java Backend Developer | Spring Boot | Microservices | AWS
+☕ Java Backend Developer || Spring Boot || Microservices || AWS
 </h3>
 
 <p align="center">
