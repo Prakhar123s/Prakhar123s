@@ -1,0 +1,22 @@
+class Solution {
+    public int removeElement(int[] nums, int val) {
+        
+        ArrayList<Integer> arr=new ArrayList<>();
+
+        int i=0;
+        while(i<nums.length){
+
+            if(nums[i]!=val){
+                arr.add(nums[i]);
+            }
+            i++;
+        }
+        return arr.size();
+    }
+}
+
+
+
+0 <= nums.length <= 100
+0 <= nums[i] <= 50
+0 <= val <= 100
